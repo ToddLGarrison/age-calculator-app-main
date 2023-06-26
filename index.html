@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
   
   <title>Frontend Mentor | Age calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <div class="card">
@@ -42,7 +43,17 @@
           <button type="submit" class="submit-btn"><img src="./client/assets/images/icon-arrow.svg" alt=""icon></button>
         </div>
       </form>
-      <div class="output"></div>
+      <div class="output">
+        <h1>
+          <span id="YY">--</span>years
+        </h1>
+        <h1>
+          <span id="MM">--</span>months
+        </h1>
+        <h1>
+          <span id="DD">--</span>days
+        </h1>
+      </div>
     </div>
   </div>
 
